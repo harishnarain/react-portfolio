@@ -8,8 +8,12 @@ import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import DescriptionIcon from "@material-ui/icons/Description";
 import Link from "@material-ui/core/Link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
+import { Link as LinkScroll } from "react-scroll";
 
 import Aux from "../../hoc/Aux/Aux";
+import Hero from "../../components/Hero";
 
 const useStyles = makeStyles((theme) => ({
   content: {
@@ -22,6 +26,24 @@ const useStyles = makeStyles((theme) => ({
   cardHeading: {
     marginBottom: theme.spacing(2),
   },
+  heroContent: {
+    width: "100%",
+    height: "100vh",
+  },
+  heroTitle: {
+    top: "40%",
+    position: "absolute",
+  },
+  heroSubtitle: {
+    left: "20%",
+    position: "absolute",
+    top: "50%",
+  },
+  showMore: {
+    position: "absolute",
+    top: "80%",
+    left: "50%",
+  },
 }));
 
 const Home = (props) => {
@@ -29,9 +51,36 @@ const Home = (props) => {
 
   return (
     <Aux>
+      <Hero />
       <CssBaseLine />
-      <Grid container spacing={3}>
-        <Grid item md={12} align="center">
+      <Grid container spacing={3} className={classes.heroContent}>
+        <Typography variant="h2" gutterBottom className={classes.heroTitle}>
+          Harish Narain
+        </Typography>
+        <Typography variant="h4" gutterBottom className={classes.heroSubtitle}>
+          Full Stack Developer
+        </Typography>
+        <LinkScroll
+          activeClass="active"
+          to="about-content"
+          spy={true}
+          smooth={true}
+          duration={1000}
+        >
+          <FontAwesomeIcon
+            icon={faAngleDown}
+            size="5x"
+            className={classes.showMore}
+          />
+        </LinkScroll>
+      </Grid>
+      <Grid
+        container
+        spacing={3}
+        className={classes.aboutContent}
+        id="about-content"
+      >
+        <Grid item md={12} align="center" id="about-me">
           <Typography align="center" variant="h2" gutterBottom>
             Who's Harish
           </Typography>
