@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# React Portfolio - Portfolio reborn on React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-## Available Scripts
+For this assignment, we've recreated the previous portfolio with React.
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [React Portfolio - Portfolio reborn on React](#react-portfolio---portfolio-reborn-on-react)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Screenshots](#screenshots)
+  - [Questions](#questions)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Installation
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Clone this GitHub repository
 
-### `npm test`
+   ```
+   git@github.com:harishnarain/react-portfolio.git
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Install all dependent npm packages
 
-### `npm run build`
+   ```
+   npm install --save
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Run the development server
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```
+   npm start
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. If deploying to a hosting platform follow the instructions of that platform for deploying React apps
 
-### `npm run eject`
+## Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. The Navbar brand link will take you to the Home page/About Me
+2. The About Me link will take you to the Home page/About Me
+3. The Portfolio link will take you to the Portfolio page
+4. The Contact Me link will take you to the Contact page
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+A demo of the application is available at: https://aqueous-anchorage-40595.herokuapp.com/
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## License
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+This project uses the MIT license
 
-## Learn More
+## Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Pull requests are welcome
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Screenshots
 
-### Code Splitting
+**Home Page**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Screenshot1](https://github.com/harishnarain/react-portfolio/blob/main/Screenshot1.PNG?raw=true)
+![Screenshot2](https://github.com/harishnarain/react-portfolio/blob/main/Screenshot2.PNG?raw=true)
+![Screenshot3](https://github.com/harishnarain/react-portfolio/blob/main/Screenshot3.PNG?raw=true)
+![Screenshot4](https://github.com/harishnarain/react-portfolio/blob/main/Screenshot4.PNG?raw=true)
 
-### Analyzing the Bundle Size
+## Questions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Checkout my GitHub [profile](https://github.com/harishnarain)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Please feel free to email at: <harishnarain@gmail.com>
