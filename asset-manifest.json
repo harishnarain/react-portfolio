@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/reactportfolio/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/reactportfolio/static/js/main.543e91eb.chunk.js",
+    "main.js.map": "/reactportfolio/static/js/main.543e91eb.chunk.js.map",
+    "runtime-main.js": "/reactportfolio/static/js/runtime-main.9ca78afa.js",
+    "runtime-main.js.map": "/reactportfolio/static/js/runtime-main.9ca78afa.js.map",
+    "static/css/2.1fc99c90.chunk.css": "/reactportfolio/static/css/2.1fc99c90.chunk.css",
+    "static/js/2.5af18748.chunk.js": "/reactportfolio/static/js/2.5af18748.chunk.js",
+    "static/js/2.5af18748.chunk.js.map": "/reactportfolio/static/js/2.5af18748.chunk.js.map",
+    "static/js/3.1cf4f759.chunk.js": "/reactportfolio/static/js/3.1cf4f759.chunk.js",
+    "static/js/3.1cf4f759.chunk.js.map": "/reactportfolio/static/js/3.1cf4f759.chunk.js.map",
+    "index.html": "/reactportfolio/index.html",
+    "static/css/2.1fc99c90.chunk.css.map": "/reactportfolio/static/css/2.1fc99c90.chunk.css.map",
+    "static/css/main.6dea0f05.chunk.css.map": "/reactportfolio/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.5af18748.chunk.js.LICENSE.txt": "/reactportfolio/static/js/2.5af18748.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/reactportfolio/static/media/roboto-vietnamese-400-normal.52cebac0.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9ca78afa.js",
+    "static/css/2.1fc99c90.chunk.css",
+    "static/js/2.5af18748.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.543e91eb.chunk.js"
+  ]
+}
