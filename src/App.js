@@ -1,10 +1,10 @@
-import React, { Suspense } from 'react';
-import { Route, Switch, Redirect } from 'react-router-dom';
+import React, { Suspense } from "react";
+import { Route, Switch, Redirect } from "react-router-dom";
 
-import Layout from './containers/Layout/Layout';
-import Home from './containers/Home/Home';
-import Portfolio from './containers/Portfolio/Portfolio';
-import Contact from './containers/Contact/Contact';
+import Layout from "./containers/Layout/Layout";
+import Home from "./containers/Home/Home";
+import Portfolio from "./containers/Portfolio/Portfolio";
+import Contact from "./containers/Contact/Contact";
 
 const App = (props) => {
   let routes = (
