@@ -7,7 +7,6 @@ import { makeStyles } from "@material-ui/core/styles";
 import { Typography } from "@material-ui/core";
 import Button from "@material-ui/core/Button";
 import Link from "@material-ui/core/Link";
-import useMediaQuery from "@material-ui/core/useMediaQuery";
 
 const useStyles = makeStyles((theme) => ({
   card: {
@@ -39,7 +38,6 @@ const useStyles = makeStyles((theme) => ({
 
 const ProjectCard = (props) => {
   const classes = useStyles();
-  const desktop = useMediaQuery("(min-width:700px");
 
   return (
     <Card className={classes.card}>
