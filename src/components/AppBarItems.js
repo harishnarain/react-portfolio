@@ -30,7 +30,7 @@ const AppBarItems = props => {
             </div>
             <LinkWrapper component={Link} to="/" color="inherit" variant="body1" className={classes.link}>About Me</LinkWrapper>
             <LinkWrapper component={Link} to="/portfolio" color="inherit" variant="body1" className={classes.link}>Portfolio</LinkWrapper>
-            <LinkWrapper component={Link} to="#" color="inherit" variant="body1" className={classes.link}>Contact Me</LinkWrapper>
+            <LinkWrapper component={Link} to="/contact" color="inherit" variant="body1" className={classes.link}>Contact Me</LinkWrapper>
         </Aux>
     );
 };
