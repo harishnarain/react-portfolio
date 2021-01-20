@@ -44,7 +44,7 @@ For this assignment, we've recreated the previous portfolio with React.
 3. The Portfolio link will take you to the Portfolio page
 4. The Contact Me link will take you to the Contact page
 
-A demo of the application is available at: https://aqueous-anchorage-40595.herokuapp.com/
+A demo of the application is available at: https://secret-earth-97378.herokuapp.com/
 
 ## License
 
@@ -58,10 +58,10 @@ Pull requests are welcome
 
 **Home Page**
 
-![Screenshot1](https://github.com/harishnarain/react-portfolio/blob/main/Screenshot1.PNG?raw=true)
-![Screenshot2](https://github.com/harishnarain/react-portfolio/blob/main/Screenshot2.PNG?raw=true)
-![Screenshot3](https://github.com/harishnarain/react-portfolio/blob/main/Screenshot3.PNG?raw=true)
-![Screenshot4](https://github.com/harishnarain/react-portfolio/blob/main/Screenshot4.PNG?raw=true)
+![Screenshot1](https://github.com/harishnarain/react-portfolio/blob/main/Screenshot1.png?raw=true)
+![Screenshot2](https://github.com/harishnarain/react-portfolio/blob/main/Screenshot2.png?raw=true)
+![Screenshot3](https://github.com/harishnarain/react-portfolio/blob/main/Screenshot3.png?raw=true)
+![Screenshot4](https://github.com/harishnarain/react-portfolio/blob/main/Screenshot4.png?raw=true)
 
 ## Questions
 
